@@ -1,0 +1,35 @@
+{
+  "name": "adamthehutt/eloquent-constructed-event",
+  "description": "Eloquent model trait to add a 'constructed' event, which will fire immediately after object construction",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adam Huttler",
+      "email": "adam.huttler@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/database": ">=5.8",
+    "illuminate/support": "^5.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.2.1",
+    "orchestra/testbench": "^3.8"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "AdamTheHutt\\EloquentConstructedEvent\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AdamTheHutt\\EloquentConstructedEvent\\Tests\\": "tests/"
+    }
+  }
+}
