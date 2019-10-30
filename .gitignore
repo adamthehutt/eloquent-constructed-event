@@ -1,6 +1,6 @@
 vendor/
 node_modules/
 npm-debug.log
-composer.phar
+composer.lock
 phpunit.xml
 .phpunit.result.cache
